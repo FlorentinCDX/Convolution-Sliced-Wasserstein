@@ -13,8 +13,9 @@ as well as a Convolution Sliced Wasserstein class for every slicer. I also provi
 This projet will required the folowing depedencies :
 - torch
 - torchvision (to run the test on images)
+- numpy
 
 ## Content and reproduction
 
-The python script random_convolution.py contains all the classes and method. The notebook test_CSW.ipynb contains the reproducible on toy data and images from celebA dataset.
+The python script random_convolution.py contains all the classes and method for the convolution sliced wasserstein, the losses.py script contains the classical sliced wassertein for speed comparison. The notebook test_CSW.ipynb contains the reproducible on toy data and images from celebA dataset.
 
